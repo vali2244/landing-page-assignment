@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 2rem;
+    padding: 2rem 0;
   }
   .logo {
     font-size: 25px !important;
@@ -74,7 +74,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 4rem;
     /* margin-left: 4rem;
     margin-right: 4rem; */
   }
@@ -104,13 +103,13 @@
     height: fit-content;
   }
   .signin-form {
-    max-width: 470px;
+    max-width: 22rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.3rem;
-    padding: 4rem;
+    gap: 1rem;
+    padding: 2rem;
     border-radius: 10px;
     background-color: #ffffff;
   }
@@ -180,6 +179,11 @@
   /* media query start from here */
   
   @media screen and (max-width: 981px) {
+    .text-container h1 {
+        font-size: 38px;
+        font-weight: 700;
+        color: #ffffff;
+    }
     .main-container {
       flex-direction: column;
     }
